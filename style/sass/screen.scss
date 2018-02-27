@@ -5,6 +5,17 @@
 
 @import "compass/reset";
 
-ul{
+ul {
 	list-style: none;
+}
+
+section {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	background-color: aquamarine;
+}
+
+#one {
 }

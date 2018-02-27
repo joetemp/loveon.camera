@@ -71,3 +71,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 ul {
   list-style: none;
 }
+
+/* line 12, ../sass/screen.scss */
+section {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: aquamarine;
+}
