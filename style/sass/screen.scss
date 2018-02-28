@@ -5,6 +5,15 @@
 
 @import "compass/reset";
 
+$green: #00CC99;
+$yellow: #FFEE88;
+$pink: #EE92C2;
+$purple: #6A7FDB;
+$red: #FF6B6B;
+$teal: #69D1C5;
+$red: #FF6B6B;
+$blue: #57E2E5;
+
 html, body {
 	height: 100%;
 }
@@ -19,29 +28,29 @@ section {
 }
 
 #one {
-	background-color: aquamarine;
+	background-color: $green;
 }
 
 #two {
-	background-color: teal;
+	background-color: $yellow;
 }
 
 #three {
-	background-color: blue;
+	background-color: $pink;
 }
 
 #four {
-	background-color: purple;
+	background-color: $purple;
 }
 
 #five {
-	background-color: magenta;
+	background-color: $teal;
 }
 
 #six {
-	background-color: pink;
+	background-color: $red;
 }
 
 #seven {
-	background-color: red;
+	background-color: $blue; 
 }
