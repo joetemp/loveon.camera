@@ -5,14 +5,24 @@
 
 @import "compass/reset";
 
+// Colors
 $green: #00CC99;
+$dark-green: #009570;
 $yellow: #FFEE88;
+$dark-yellow: #D1C370;
 $pink: #EE92C2;
+$dark-pink: #C3789F;
 $purple: #6A7FDB;
-$red: #FF6B6B;
+$dark-purple: #5768B4;
 $teal: #69D1C5;
+$dark-teal: #4D9990;
 $red: #FF6B6B;
-$blue: #57E2E5;
+$dark-red: #BA4E4E;
+$blue: #8DE4FF;
+$dark-blue: #67A6BA;
+
+// Fonts
+$fatface: 'Abril Fatface', cursive;
 
 html, body {
 	height: 100%;
@@ -25,32 +35,47 @@ ul {
 section {
 	position: relative;
 	height: 100%;
+
+	h1 {
+		position: absolute;
+		bottom: 0.25em;
+		left: 0.25em;
+		font-family: $fatface;
+		font-size: 10em;
+	}
 }
 
 #video {
 	background-color: $green;
+	color: $dark-green;
 }
 
 #package {
 	background-color: $yellow;
+	color: $dark-yellow;
 }
 
 #uhd {
 	background-color: $pink;
+	color: $dark-pink;
 }
 
 #stills {
 	background-color: $purple;
+	color: $dark-purple;
 }
 
 #edit {
 	background-color: $teal;
+	color: $dark-teal;
 }
 
 #website {
 	background-color: $red;
+	color: $dark-red;
 }
 
 #contact {
 	background-color: $blue; 
+	color: $dark-blue;
 }

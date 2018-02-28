@@ -67,53 +67,68 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 17, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 html, body {
   height: 100%;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 ul {
   list-style: none;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 section {
   position: relative;
   height: 100%;
 }
+/* line 39, ../sass/screen.scss */
+section h1 {
+  position: absolute;
+  bottom: 0.25em;
+  left: 0.25em;
+  font-family: "Abril Fatface", cursive;
+  font-size: 10em;
+}
 
-/* line 30, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 #video {
   background-color: #00CC99;
+  color: #009570;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 #package {
   background-color: #FFEE88;
+  color: #D1C370;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 #uhd {
   background-color: #EE92C2;
+  color: #C3789F;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 #stills {
   background-color: #6A7FDB;
+  color: #5768B4;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 #edit {
   background-color: #69D1C5;
+  color: #4D9990;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 #website {
   background-color: #FF6B6B;
+  color: #BA4E4E;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 #contact {
-  background-color: #57E2E5;
+  background-color: #8DE4FF;
+  color: #67A6BA;
 }
