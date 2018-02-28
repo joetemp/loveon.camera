@@ -68,15 +68,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 8, ../sass/screen.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../sass/screen.scss */
 ul {
   list-style: none;
 }
 
-/* line 12, ../sass/screen.scss */
+/* line 16, ../sass/screen.scss */
 section {
-  position: fixed;
+  position: relative;
   height: 100%;
-  width: 100%;
-  top: 0;
   background-color: aquamarine;
 }
