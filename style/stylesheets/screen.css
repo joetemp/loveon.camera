@@ -102,3 +102,18 @@ section {
 #four {
   background-color: purple;
 }
+
+/* line 37, ../sass/screen.scss */
+#five {
+  background-color: magenta;
+}
+
+/* line 41, ../sass/screen.scss */
+#six {
+  background-color: pink;
+}
+
+/* line 45, ../sass/screen.scss */
+#seven {
+  background-color: red;
+}
