@@ -81,5 +81,24 @@ ul {
 section {
   position: relative;
   height: 100%;
+}
+
+/* line 21, ../sass/screen.scss */
+#one {
   background-color: aquamarine;
+}
+
+/* line 25, ../sass/screen.scss */
+#two {
+  background-color: teal;
+}
+
+/* line 29, ../sass/screen.scss */
+#three {
+  background-color: blue;
+}
+
+/* line 33, ../sass/screen.scss */
+#four {
+  background-color: purple;
 }
