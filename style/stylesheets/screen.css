@@ -97,51 +97,42 @@ h1 {
 /* line 50, ../sass/screen.scss */
 #video #bgvid {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
   width: 100%;
-  height: auto;
-  transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
-  overflow: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 #package {
   background-color: #FFEE88;
   color: #D1C370;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 #resolution {
   background-color: #EE92C2;
   color: #C3789F;
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 #stills {
   background-color: #6A7FDB;
   color: #5768B4;
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 #edit {
   background-color: #69D1C5;
   color: #4D9990;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 #website {
   background-color: #FF6B6B;
   color: #BA4E4E;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 #contact {
   background-color: #8DE4FF;
   color: #67A6BA;
