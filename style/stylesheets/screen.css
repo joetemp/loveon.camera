@@ -1,7 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 5, ../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -67,22 +63,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 html, body {
   height: 100%;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 ul {
   list-style: none;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 section {
   position: relative;
   height: 100%;
 }
-/* line 39, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 section h1 {
   position: absolute;
   bottom: 0.25em;
@@ -91,43 +87,43 @@ section h1 {
   font-size: 10em;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 #video {
   background-color: #00CC99;
   color: #009570;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 #package {
   background-color: #FFEE88;
   color: #D1C370;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 #uhd {
   background-color: #EE92C2;
   color: #C3789F;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 #stills {
   background-color: #6A7FDB;
   color: #5768B4;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 #edit {
   background-color: #69D1C5;
   color: #4D9990;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 #website {
   background-color: #FF6B6B;
   color: #BA4E4E;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 #contact {
   background-color: #8DE4FF;
   color: #67A6BA;
