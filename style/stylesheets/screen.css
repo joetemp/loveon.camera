@@ -77,9 +77,10 @@ ul {
 section {
   position: relative;
   height: 100%;
+  overflow: hidden;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 h1 {
   position: absolute;
   bottom: 0.25em;
@@ -88,58 +89,59 @@ h1 {
   font-size: 10em;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 #video {
   background-color: #00CC99;
   color: #009570;
 }
-/* line 49, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 #video #bgvid {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
+  width: 100%;
   height: auto;
   transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   background-size: cover;
+  overflow: auto;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 #package {
   background-color: #FFEE88;
   color: #D1C370;
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 #resolution {
   background-color: #EE92C2;
   color: #C3789F;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 #stills {
   background-color: #6A7FDB;
   color: #5768B4;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 #edit {
   background-color: #69D1C5;
   color: #4D9990;
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 #website {
   background-color: #FF6B6B;
   color: #BA4E4E;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 #contact {
   background-color: #8DE4FF;
   color: #67A6BA;
