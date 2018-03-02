@@ -11,6 +11,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
 </head>
 
 <body>
@@ -52,6 +53,17 @@
 	<section id="contact">
 		<h1>Contact</h1>
 	</section>
+
+	<script type="text/javascript">
+		// init controller
+		var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+
+		// build scenes
+		new ScrollMagic.Scene({triggerElement: "#video"})
+						.setTween("#video > video", {y: "80%", ease: Linear.easeNone})
+						.addIndicators()
+						.addTo(controller);
+	</script>
 
 	<footer>
 	</footer>
