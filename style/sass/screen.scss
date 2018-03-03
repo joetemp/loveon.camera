@@ -43,6 +43,33 @@ h1 {
 	font-size: 10em;
 }
 
+.ruler {
+	position: absolute;
+	height: 100%;
+	width: 1px;
+	background-color: white;
+	z-index: 200;
+	opacity: 0.5;
+}
+
+#center {
+	left: 50%;
+}
+
+#left {
+	left: 10%;		
+}
+
+#right {
+	right: 10%;
+}
+
+#center-x {
+	height: 1px;
+	width: 100%;
+	top: 50%;
+}
+
 
 #video {
 	background-color: $green;
@@ -56,6 +83,7 @@ h1 {
 		// object-fit does not work on IE.
     	object-fit: cover;
     	// display: none;
+    	z-index: 100;
 	}
 }
 
