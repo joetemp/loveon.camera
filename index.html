@@ -62,7 +62,7 @@
 		// build scenes
 		new ScrollMagic.Scene({triggerElement: "#video"})
 						.setTween("#video > video", {y: "80%", ease: Linear.easeNone})
-						.addIndicators()
+						.addIndicators({name: "video"})
 						.addTo(controller);
 	</script>
 
