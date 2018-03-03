@@ -18,7 +18,8 @@ $blue: #8DE4FF;
 $dark-blue: #67A6BA;
 
 // Fonts
-$fatface: 'Abril Fatface', cursive;
+$playfair: 'Playfair Display', serif;
+$raleway: 'Raleway', sans-serif;
 
 html, body {
 	height: 100%;
@@ -38,7 +39,7 @@ h1 {
 	position: absolute;
 	bottom: 0.25em;
 	left: 0.25em;
-	font-family: $fatface;
+	font-family: $raleway;
 	font-size: 10em;
 }
 
