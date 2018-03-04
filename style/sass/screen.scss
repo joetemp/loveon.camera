@@ -20,6 +20,8 @@ $dark-blue: #67A6BA;
 // Fonts
 $lato: 'Lato', sans-serif;
 $raleway: 'Raleway', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
 
 html, body {
 	height: 100%;
@@ -40,7 +42,7 @@ li {
 	display: inline;
 	a {
 		color: white;
-		font-family: $lato;
+		font-family: $roboto;
 		margin-left: 15px;
 	}
 }
