@@ -137,7 +137,7 @@ h1 {
 }
 
 /* line 92, ../sass/screen.scss */
-button {
+a {
   position: absolute;
   top: 50%;
   margin-top: -30px;
@@ -154,39 +154,55 @@ button {
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
+  text-align: center;
+  align: middle;
+  line-height: 60px;
+  transition: 0.2s;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
+a:link {
+  text-decoration: none;
+}
+
+/* line 120, ../sass/screen.scss */
+a:hover {
+  background-color: red;
+  border-color: red;
+  transition: 0.2s;
+}
+
+/* line 128, ../sass/screen.scss */
 #package {
   background-color: #FFEE88;
   color: #D1C370;
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 #resolution {
   background-color: #EE92C2;
   color: #C3789F;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 #stills {
   background-color: #6A7FDB;
   color: #5768B4;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 #edit {
   background-color: #69D1C5;
   color: #4D9990;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 #website {
   background-color: #FF6B6B;
   color: #BA4E4E;
 }
 
-/* line 137, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 #contact {
   background-color: #8DE4FF;
   color: #67A6BA;
