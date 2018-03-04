@@ -48,8 +48,9 @@ h1 {
 	height: 100%;
 	width: 1px;
 	background-color: white;
-	z-index: 200;
+	z-index: 1000;
 	opacity: 0.5;
+	display: none;
 }
 
 #center {
@@ -57,7 +58,7 @@ h1 {
 }
 
 #left {
-	left: 10%;		
+	left: 10%;
 }
 
 #right {
@@ -86,6 +87,24 @@ h1 {
     	z-index: 100;
 	}
 }
+
+			
+button {
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	left: 50%;
+	margin-left: -90px;
+	height: 60px;
+	width: 180px;
+	background-color: red;
+	border-radius: 12px;
+	border: none;
+	z-index: 200;
+	padding: none;
+	margin: none;
+}
+
 
 #package {
 	background-color: $yellow;
