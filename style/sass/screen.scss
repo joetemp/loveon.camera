@@ -25,8 +25,19 @@ html, body {
 	height: 100%;
 }
 
+nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 3000;
+}
+
 ul {
 	list-style: none;
+}
+
+li {
+	display: inline;
 }
 
 section {
@@ -89,7 +100,7 @@ h1 {
 }
 
 			
-a {
+.button {
 	position: absolute;
 	top: 50%;
 	margin-top: -30px;
@@ -113,13 +124,13 @@ a {
 
 }
 
-a:link {
+.button:link {
 	text-decoration: none;
 }
 
-a:hover {
-	background-color: red;
-	border-color: red;
+.button:hover {
+	background-color: $red;
+	border-color: $red;
 	transition: 0.2s;
 
 }
@@ -145,12 +156,12 @@ a:hover {
 	color: $dark-teal;
 }
 
-#website {
+#webpage {
 	background-color: $red;
 	color: $dark-red;
 }
 
-#contact {
+#book {
 	background-color: $blue; 
 	color: $dark-blue;
 }
