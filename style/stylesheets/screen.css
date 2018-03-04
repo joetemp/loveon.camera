@@ -146,45 +146,48 @@ button {
   margin-left: -90px;
   height: 60px;
   width: 180px;
-  background-color: red;
+  border: 2px solid #fff;
+  background-color: transparent;
   border-radius: 12px;
-  border: none;
   z-index: 200;
   padding: none;
   margin: none;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 #package {
   background-color: #FFEE88;
   color: #D1C370;
 }
 
-/* line 114, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 #resolution {
   background-color: #EE92C2;
   color: #C3789F;
 }
 
-/* line 119, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 #stills {
   background-color: #6A7FDB;
   color: #5768B4;
 }
 
-/* line 124, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 #edit {
   background-color: #69D1C5;
   color: #4D9990;
 }
 
-/* line 129, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 #website {
   background-color: #FF6B6B;
   color: #BA4E4E;
 }
 
-/* line 134, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 #contact {
   background-color: #8DE4FF;
   color: #67A6BA;
