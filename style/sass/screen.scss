@@ -26,7 +26,7 @@ html, body {
 }
 
 nav {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
 	z-index: 3000;
@@ -38,6 +38,11 @@ ul {
 
 li {
 	display: inline;
+	a {
+		color: white;
+		font-family: $lato;
+		margin-left: 15px;
+	}
 }
 
 section {
@@ -52,6 +57,10 @@ h1 {
 	left: 0.25em;
 	font-family: $raleway;
 	font-size: 10em;
+}
+
+a {
+	text-decoration: none;
 }
 
 .ruler {
