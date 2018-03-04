@@ -30,7 +30,7 @@ html, body {
 nav {
 	position: fixed;
 	top: 0;
-	right: 0;
+	right: 10%;
 	z-index: 3000;
 }
 
@@ -60,6 +60,7 @@ h1 {
 	font-family: $raleway;
 	font-size: 10em;
 }
+
 
 a {
 	text-decoration: none;
