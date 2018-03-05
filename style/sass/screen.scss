@@ -33,7 +33,7 @@ header {
 	width: 80%;
 	left: 10%;
 	height: auto;
-	background-color: red;
+	background-color: $blue;
 	z-index: 3000;
 }
 
@@ -41,7 +41,7 @@ nav {
 	float: right;
 	padding-top: 10px; 
 	padding-bottom: 10px;
-	background-color: blue;
+	background-color: $red;
 }
 
 ul {

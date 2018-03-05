@@ -75,7 +75,7 @@ header {
   width: 80%;
   left: 10%;
   height: auto;
-  background-color: red;
+  background-color: #8DE4FF;
   z-index: 3000;
 }
 
@@ -84,7 +84,7 @@ nav {
   float: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: blue;
+  background-color: #FF6B6B;
 }
 
 /* line 47, ../sass/screen.scss */
