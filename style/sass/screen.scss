@@ -27,11 +27,21 @@ html, body {
 	height: 100%;
 }
 
-nav {
+header {
 	position: fixed;
 	top: 0;
-	right: 10%;
+	width: 80%;
+	left: 10%;
+	height: auto;
+	background-color: red;
 	z-index: 3000;
+}
+
+nav {
+	float: right;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	background-color: blue;
 }
 
 ul {
