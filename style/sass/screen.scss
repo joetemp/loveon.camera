@@ -35,7 +35,6 @@ header {
 	z-index: 3000;
 	background: rgba(black, 0.3);
 	border-bottom: 1px solid rgba(black, 0.2);
-	background: $yellow;
 	line-height: 50px;
 }
 
@@ -67,7 +66,9 @@ li {
 		padding-left: 15px;
 		padding-right: 15px;
 		margin: 0;
+		background-color: $purple;
 	}
+
 }
 
 li:last-of-type {
