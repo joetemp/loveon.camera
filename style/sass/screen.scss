@@ -57,11 +57,14 @@ ul {
 li {
 	display: inline-block;
 	background-color: $teal;
+	margin-left: -4px;
 	a {
 		display: inline-block;
 		color: white;
 		font-family: $roboto;
-		padding-left: 40px;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin: 0;
 	}
 }
 
