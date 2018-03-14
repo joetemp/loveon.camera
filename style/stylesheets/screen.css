@@ -102,16 +102,16 @@ li {
 /* line 59, ../sass/screen.scss */
 li a {
   display: inline-block;
-  height: 100%;
   color: white;
   font-family: "Roboto", sans-serif;
   padding-left: 20px;
   padding-right: 20px;
   transition: 0.2s;
 }
-/* line 70, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 li a:hover {
   background: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 -2px 0 white;
   transition: 0.2s;
 }
 

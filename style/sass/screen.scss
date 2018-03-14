@@ -58,7 +58,6 @@ li {
 
 	a {
 		display: inline-block;
-		height: 100%;
 		color: white;
 		font-family: $roboto;
 		padding-left: 20px;
@@ -69,6 +68,7 @@ li {
 
 	a:hover{
 		background: rgba(white, 0.1);
+		box-shadow: inset 0 -2px 0 white;
 		transition: 0.2s;
 	}
 
