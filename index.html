@@ -14,6 +14,8 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	<script src="js/smoothScroll.js"></script>
 </head>
 
 <body>
@@ -65,6 +67,7 @@
 		<h1>Book</h1>
 	</section>
 
+
 	<script type="text/javascript">
 		// init controller
 		var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
@@ -74,6 +77,10 @@
 						.setTween("#video > video", {y: "80%", ease: Linear.easeNone})
 						.addIndicators({name: "video"})
 						.addTo(controller);
+	</script>
+
+	<script type="text/javascript">
+		smoothscroll.polyfill();	
 	</script>
 
 	<footer>

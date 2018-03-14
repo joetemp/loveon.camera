@@ -23,6 +23,8 @@ $roboto: 'Roboto', sans-serif;
 
 html, body {
 	height: 100%;
+	// This works native on Chrome and Firefox.
+	scroll-behavior: smooth;
 }
 
 header {
