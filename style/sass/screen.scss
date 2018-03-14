@@ -43,41 +43,39 @@ nav {
 	width: 80%;
 	left: 10%;
 	height: 100%;
-	background: $blue;
+	//background: $blue;
 }
 
 ul {
 	list-style: none;
 	float: right;
 	line-height: 50px;
-	background: $pink;
+	//background: $pink;
 	height: 100%;
 }
 
 li {
 	display: inline-block;
-	background-color: $teal;
+	//background-color: $teal;
 	margin-left: -4px;
-	margin-right: 10px;
+	//margin-right: 10px;
 	a {
 		display: inline-block;
 		color: white;
 		font-family: $roboto;
 		padding-left: 15px;
 		padding-right: 15px;
-		margin: 0;
-		background-color: $purple;
+		//background-color: $purple;
+		transition: 0.2s;
 	}
 
 	a:hover{
-		background-color: $red;
+		background-color: rgba(white, 0.1);
+		transition: 0.2s;
 	}
 
 }
 
-li:last-of-type {
-	margin-right: 0;
-}
 
 section {
 	position: relative;

@@ -86,7 +86,6 @@ nav {
   width: 80%;
   left: 10%;
   height: 100%;
-  background: #8DE4FF;
 }
 
 /* line 49, ../sass/screen.scss */
@@ -94,16 +93,13 @@ ul {
   list-style: none;
   float: right;
   line-height: 50px;
-  background: #EE92C2;
   height: 100%;
 }
 
 /* line 57, ../sass/screen.scss */
 li {
   display: inline-block;
-  background-color: #69D1C5;
   margin-left: -4px;
-  margin-right: 10px;
 }
 /* line 62, ../sass/screen.scss */
 li a {
@@ -112,27 +108,22 @@ li a {
   font-family: "Roboto", sans-serif;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0;
-  background-color: #6A7FDB;
+  transition: 0.2s;
 }
 /* line 72, ../sass/screen.scss */
 li a:hover {
-  background-color: #FF6B6B;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: 0.2s;
 }
 
-/* line 78, ../sass/screen.scss */
-li:last-of-type {
-  margin-right: 0;
-}
-
-/* line 82, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 section {
   position: relative;
   height: 100%;
   overflow: hidden;
 }
 
-/* line 88, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 h1 {
   position: absolute;
   bottom: 0.25em;
@@ -141,12 +132,12 @@ h1 {
   font-size: 10em;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 a {
   text-decoration: none;
 }
 
-/* line 101, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 #logo {
   margin-top: 5px;
   float: left;
@@ -154,7 +145,7 @@ a {
   font-size: 40px;
 }
 
-/* line 110, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .ruler {
   position: absolute;
   height: 100%;
@@ -164,34 +155,34 @@ a {
   opacity: 0.5;
 }
 
-/* line 120, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 #center {
   left: 50%;
 }
 
-/* line 124, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 #left {
   left: 10%;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 #right {
   right: 10%;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 #center-x {
   height: 1px;
   width: 100%;
   top: 50%;
 }
 
-/* line 139, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 #video {
   background-color: #00CC99;
   color: #009570;
 }
-/* line 143, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 #video #bgvid {
   position: absolute;
   top: -40%;
@@ -201,7 +192,7 @@ a {
   z-index: 100;
 }
 
-/* line 156, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .button {
   position: absolute;
   top: 50%;
@@ -224,49 +215,49 @@ a {
   transition: 0.2s;
 }
 
-/* line 179, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .button:link {
   text-decoration: none;
 }
 
-/* line 183, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 .button:hover {
   background-color: #FF6B6B;
   border-color: #FF6B6B;
   transition: 0.2s;
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 #package {
   background-color: #FFEE88;
   color: #D1C370;
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 #resolution {
   background-color: #EE92C2;
   color: #C3789F;
 }
 
-/* line 201, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 #stills {
   background-color: #6A7FDB;
   color: #5768B4;
 }
 
-/* line 206, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 #edit {
   background-color: #69D1C5;
   color: #4D9990;
 }
 
-/* line 211, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 #webpage {
   background-color: #FF6B6B;
   color: #BA4E4E;
 }
 
-/* line 216, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 #book {
   background-color: #8DE4FF;
   color: #67A6BA;
