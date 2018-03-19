@@ -38,6 +38,11 @@ header {
 	border-bottom: 1px solid rgba(black, 0.2);
 }
 
+.hide {
+	background: rgba(black, 0);
+	transition: 0.2s;
+}
+
 nav {
 	position: absolute;
 	width: 80%;
