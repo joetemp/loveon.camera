@@ -27,6 +27,11 @@ html, body {
 	scroll-behavior: smooth;
 }
 
+.active {
+	background: white;
+	color: black;
+}
+
 header {
 	position: fixed;
 	top: 0;

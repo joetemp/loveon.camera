@@ -10,3 +10,8 @@
 						.setClassToggle("#test", "hide")
 						.addIndicators({name: "Add .hide class"})
 						.addTo(controller);
+
+		new ScrollMagic.Scene({triggerElement: "#edit"})
+						.setClassToggle("#waldo", "active")
+						.addIndicators()
+						.addTo(controller);
