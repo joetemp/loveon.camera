@@ -20,7 +20,7 @@
 </head>
 
 <body>
-		<header>
+		<header id="test">
 			<nav>
 				<a href="#video"><i class="fab fa-chrome" id="logo"></i></a>
 				<ul>
@@ -83,6 +83,13 @@
 	<!-- Script to change background color of nav bar -->
 	<script type="text/javascript">
 		//Do some Scroll Magic shit here!
+		var scene = new ScrollMagic.Scene({
+							triggerElement: "#resolution"
+						})
+						.setTween("#test", 0.5, {backgroundColor: "green"}) // This should make the bar trun green.
+						.addIndicators({name: "Bar Test"})
+						.addTo(controller);
+
 	</script>
 
 	<!-- This probably isn't right -->
