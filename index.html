@@ -83,8 +83,13 @@
 	<!-- Script to change background color of nav bar -->
 	<script type="text/javascript">
 		// 
-		// This should probably be done by adding a CSS class.
+		// This needs a controller.
 		//
+
+		// init controller
+		var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+
+		// build scenes
 		var scene = new ScrollMagic.Scene({triggerElement: "#edit"})
 						.setClassToggle("#test", "hide")
 						.addIndicators({name: "Add .hide class"})
