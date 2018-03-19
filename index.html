@@ -25,7 +25,7 @@
 				<a href="#video"><i class="fab fa-chrome" id="logo"></i></a>
 				<ul>
 					<li><a id="waldo" href="#resolution">4K</a></li>
-					<li><a href="#edit">Edit + Color</a></li>
+					<li><a id="fuck" href="#edit">Edit + Color</a></li>
 					<li><a href="#stills">Stills</a></li>
 					<li><a href="#webpage">Webpage</a></li>
 					<li><a href="#book">Book</a></li>
@@ -71,10 +71,10 @@
 
 	<script type="text/javascript">
 		// init controller
-		var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+		var controller = new ScrollMagic.Controller({});
 
 		// build scenes
-		new ScrollMagic.Scene({triggerElement: "#video"})
+		new ScrollMagic.Scene({triggerElement: "#video", triggerHook: "onEnter", duration: "200%"})
 						.setTween("#video > video", {y: "80%", ease: Linear.easeNone})
 						.addIndicators({name: "video"})
 						.addTo(controller);
