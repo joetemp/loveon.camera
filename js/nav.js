@@ -11,11 +11,11 @@
 						.addTo(controller);
 
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave", duration: "100%"})
-						.setClassToggle("#waldo", "active")
+						.setClassToggle("#res_button", "active")
 						.addIndicators()
 						.addTo(controller);
 
 		new ScrollMagic.Scene({triggerElement: "#edit", triggerHook: "onLeave", duration: "100%"})
-						.setClassToggle("#fuck", "active")
+						.setClassToggle("#edit_button", "active")
 						.addIndicators()
 						.addTo(controller);
