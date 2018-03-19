@@ -80,22 +80,8 @@
 						.addTo(controller);
 	</script>
 
-	<!-- Script to change background color of nav bar -->
-	<script type="text/javascript">
-		// 
-		// This needs a controller.
-		//
-
-		// init controller
-		var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter"}});
-
-		// build scenes
-		var scene = new ScrollMagic.Scene({triggerElement: "#edit"})
-						.setClassToggle("#test", "hide")
-						.addIndicators({name: "Add .hide class"})
-						.addTo(controller);
-
-	</script>
+	<!-- DOM -->
+	<script src="js/nav.js"></script>
 
 	<!-- This probably isn't right -->
 	<script type="text/javascript">
