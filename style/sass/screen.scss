@@ -38,6 +38,10 @@ header {
 	border-bottom: 1px solid rgba(black, 0.2);
 }
 
+#test{
+	transition: 0.2s;
+}
+
 .hide {
 	background: rgba(black, 0);
 	transition: 0.2s;
