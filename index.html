@@ -85,11 +85,9 @@
 		// 
 		// This should probably be done by adding a CSS class.
 		//
-		var scene = new ScrollMagic.Scene({
-							triggerElement: "#resolution"
-						})
-						.setTween("#test", 0.5, {backgroundColor: "#FF6B6B"}) // This should make the bar trun green.
-						.addIndicators({name: "Bar Test"})
+		var scene = new ScrollMagic.Scene({triggerElement: "#edit"})
+						.setClassToggle("#test", "hide")
+						.addIndicators({name: "Add .hide class"})
 						.addTo(controller);
 
 	</script>
