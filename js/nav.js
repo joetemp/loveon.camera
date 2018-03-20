@@ -2,14 +2,14 @@
 		// This needs a controller.
 		//
 
-		// init controller
 
-		// build scenes
+		// This makes the header bar hide 
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
 						.setClassToggle("#test", "hide")
 						.addIndicators({name: "Add .hide class"})
 						.addTo(controller);
 
+		// This controls which button is active on the nav
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onCenter", duration: "100%"})
 						.setClassToggle("#nav_4k", "active")
 						.addIndicators()
@@ -35,3 +35,8 @@
 						.addIndicators()
 						.addTo(controller);
 
+		// This changes the font color on the nav
+		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
+						.setClassToggle("a", "black")
+						.addIndicators()
+						.addTo(controller);
