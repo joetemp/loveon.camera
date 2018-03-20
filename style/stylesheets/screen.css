@@ -257,7 +257,7 @@ a {
   height: 50px;
   bottom: 0;
   background: white;
-  z-index: 10000;
+  z-index: 2000;
 }
 
 /* line 215, ../sass/screen.scss */
