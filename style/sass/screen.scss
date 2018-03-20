@@ -27,11 +27,6 @@ html, body {
 	scroll-behavior: smooth;
 }
 
-.active {
-	background: white;
-	color: black;
-}
-
 header {
 	position: fixed;
 	top: 0;
@@ -81,14 +76,16 @@ li {
 		padding-bottom: 5px;
 		padding-right: 20px;
 		transition: 0.2s;
-		//background-color: $purple;
 		border-radius: 5px;
 	}
 
 	a:hover{
 		background: white;
-		transition: 0.2s;
 		color: black;
+	}
+
+	a:active{
+		background: black;
 	}
 
 }
@@ -235,4 +232,43 @@ a {
 #book {
 	background-color: $blue; 
 	color: $dark-blue;
+}
+
+.active {
+	background: white;
+	color: black;
+}
+
+.active:hover {
+	background: white;
+	color: black; 
+}
+
+.blacktive {
+	background: black;
+	color: white;
+}
+
+.blacktive:hover {
+	background: black;
+	color: white;
+}
+
+.win{
+	background: black;
+	color: white;
+}
+
+.win:hover {
+	background: black;
+	color: white;
+}
+
+.dark:hover {
+	background: black;
+	color: white;
+}
+
+.dark:active {
+	background: white;
 }
