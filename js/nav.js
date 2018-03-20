@@ -5,7 +5,7 @@
 		// init controller
 
 		// build scenes
-		new ScrollMagic.Scene({triggerElement: "#edit", triggerHook: "onEnter"})
+		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
 						.setClassToggle("#test", "hide")
 						.addIndicators({name: "Add .hide class"})
 						.addTo(controller);
