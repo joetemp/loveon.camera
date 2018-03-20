@@ -51,3 +51,8 @@
 						.setClassToggle(".ghost", "dark")
 						.addIndicators()
 						.addTo(controller);
+
+		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onCenter"})
+						.setClassToggle(".cta", "clear")
+						.addIndicators()
+						.addTo(controller);
