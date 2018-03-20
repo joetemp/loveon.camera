@@ -169,6 +169,11 @@ a {
 }
 
 /* line 126, ../sass/screen.scss */
+.murder {
+  color: black;
+}
+
+/* line 130, ../sass/screen.scss */
 .ruler {
   position: absolute;
   height: 100%;
@@ -178,34 +183,34 @@ a {
   opacity: 0.5;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 #center {
   left: 50%;
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 #left {
   left: 10%;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 #right {
   right: 10%;
 }
 
-/* line 148, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 #center-x {
   height: 1px;
   width: 100%;
   top: 50%;
 }
 
-/* line 155, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 #video {
   background-color: #00CC99;
   color: #009570;
 }
-/* line 159, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 #video #bgvid {
   position: absolute;
   top: -40%;
@@ -215,7 +220,7 @@ a {
   z-index: 100;
 }
 
-/* line 172, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 .button {
   position: absolute;
   top: 50%;
@@ -238,19 +243,19 @@ a {
   transition: 0.2s;
 }
 
-/* line 195, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .button:link {
   text-decoration: none;
 }
 
-/* line 199, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 .button:hover {
   background-color: #00CC99;
   border-color: #00CC99;
   transition: 0.2s;
 }
 
-/* line 206, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 #bar {
   position: absolute;
   width: 100%;
@@ -260,85 +265,85 @@ a {
   z-index: 2000;
 }
 
-/* line 215, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 #package {
   background-color: #FFEE88;
   color: #D1C370;
 }
 
-/* line 220, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 #resolution {
   background-color: white;
   color: #C3789F;
 }
 
-/* line 225, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 #stills {
   background-color: #6A7FDB;
   color: #5768B4;
 }
 
-/* line 230, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 #edit {
   background-color: #69D1C5;
   color: #4D9990;
 }
 
-/* line 235, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 #webpage {
   background-color: #FF6B6B;
   color: #BA4E4E;
 }
 
-/* line 240, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 #book {
   background-color: #8DE4FF;
   color: #67A6BA;
 }
 
-/* line 245, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 .active {
   background: white;
   color: black;
 }
 
-/* line 250, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 .active:hover {
   background: white;
   color: black;
 }
 
-/* line 255, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 .blacktive {
   background: black;
   color: white;
 }
 
-/* line 260, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .blacktive:hover {
   background: black;
   color: white;
 }
 
-/* line 265, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 .win {
   background: black;
   color: white;
 }
 
-/* line 270, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 .win:hover {
   background: black;
   color: white;
 }
 
-/* line 275, ../sass/screen.scss */
+/* line 279, ../sass/screen.scss */
 .dark:hover {
   background: black;
   color: white;
 }
 
-/* line 280, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 .dark:active {
   background: white;
   color: black;

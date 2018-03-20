@@ -44,13 +44,21 @@
 						.offset(-100)
 						.addTo(controller);
 
-// THIS IS A BIG FAT TEST
+		// THIS SHOULD CHANGE THE LOGO BUT IT FUCKING DOESN'T!
+		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
+						.setClassToggle("#logo", "murder")
+						.addIndicators()
+						.offset(-100)
+						.addTo(controller);
+
+		// This changes the .active class on the 4K nav button from white to black. 
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave", duration: "50%"})
 						.setClassToggle("#nav_4k", "win")
 						.addIndicators()
 						.offset(-100)
 						.addTo(controller);
 
+		// This makes sure the :hover state is correct on the nav once it goes dark.
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
 						.setClassToggle(".ghost", "dark")
 						.addIndicators()
