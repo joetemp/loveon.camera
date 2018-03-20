@@ -250,85 +250,95 @@ a {
   transition: 0.2s;
 }
 
-/* line 207, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
+#bar {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  background: white;
+  z-index: 10000;
+}
+
+/* line 215, ../sass/screen.scss */
 #package {
   background-color: #FFEE88;
   color: #D1C370;
 }
 
-/* line 212, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 #resolution {
-  background-color: #EE92C2;
+  background-color: white;
   color: #C3789F;
 }
 
-/* line 217, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 #stills {
   background-color: #6A7FDB;
   color: #5768B4;
 }
 
-/* line 222, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 #edit {
   background-color: #69D1C5;
   color: #4D9990;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 #webpage {
   background-color: #FF6B6B;
   color: #BA4E4E;
 }
 
-/* line 232, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 #book {
   background-color: #8DE4FF;
   color: #67A6BA;
 }
 
-/* line 237, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 .active {
   background: white;
   color: black;
 }
 
-/* line 242, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .active:hover {
   background: white;
   color: black;
 }
 
-/* line 247, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 .blacktive {
   background: black;
   color: white;
 }
 
-/* line 252, ../sass/screen.scss */
+/* line 260, ../sass/screen.scss */
 .blacktive:hover {
   background: black;
   color: white;
 }
 
-/* line 257, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 .win {
   background: black;
   color: white;
 }
 
-/* line 262, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 .win:hover {
   background: black;
   color: white;
 }
 
-/* line 267, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 .dark:hover {
   background: black;
   color: white;
 }
 
-/* line 272, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 .dark:active {
   background: white;
   color: black;

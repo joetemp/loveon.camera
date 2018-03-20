@@ -7,12 +7,14 @@
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
 						.setClassToggle("#test", "hide")
 						.addIndicators({name: "Add .hide class"})
+						.offset(-100)
 						.addTo(controller);
 
 		// This controls which button is active on the nav
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onCenter", duration: "100%"})
 						.setClassToggle("#nav_4k", "active")
 						.addIndicators()
+						.offset(50)
 						.addTo(controller);
 
 		new ScrollMagic.Scene({triggerElement: "#edit", triggerHook: "onCenter", duration: "100%"})
@@ -39,12 +41,14 @@
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
 						.setClassToggle("a", "black")
 						.addIndicators()
+						.offset(-100)
 						.addTo(controller);
 
 // THIS IS A BIG FAT TEST
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave", duration: "50%"})
 						.setClassToggle("#nav_4k", "win")
 						.addIndicators()
+						.offset(-100)
 						.addTo(controller);
 
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
