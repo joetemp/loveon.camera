@@ -7,7 +7,7 @@
 		// This adds the .white_active class to the '4K' nav button. 
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onCenter", duration: "100%"})
 						.setClassToggle("#nav_4k", "white_active")
-						.addIndicators({name: "white_active", colorTrigger: "green", indent: 100})
+						.addIndicators({name: "white_active", colorTrigger: "green"})
 						.offset(-50)
 						.addTo(controller);
 
