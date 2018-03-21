@@ -53,7 +53,7 @@
 
 		// This changes the .active class on the 4K nav button from white to black. 
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave", duration: "50%"})
-						.setClassToggle("#nav_4k", "win")
+						.setClassToggle("#nav_4k", "blacktive")
 						.addIndicators()
 						.offset(-100)
 						.addTo(controller);
