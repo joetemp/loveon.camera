@@ -1,5 +1,5 @@
 		// 
-		// This needs a controller.
+		// Fix weird bugs with nav based on scroll position. States need to cascade perfectly.  
 		//
 
 
