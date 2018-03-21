@@ -2,6 +2,7 @@
 @import "compass/reset";
 
 // Colors
+$gray: #CFCFCF;
 $green: #00CC99;
 $dark-green: #009570;
 $yellow: #FFEE88;
@@ -210,7 +211,7 @@ a {
 
 #resolution {
 	background-color: white;
-	color: $dark-pink;
+	color: $gray;
 }
 
 #stills {
