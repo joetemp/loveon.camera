@@ -365,18 +365,36 @@ a {
 }
 
 /* line 302, ../sass/screen.scss */
-#logo {
-  width: 40px;
-  margin-top: 5px;
+.heart:active {
+  fill: black;
 }
 
-/* line 307, ../sass/screen.scss */
+/* line 306, ../sass/screen.scss */
+#logo {
+  height: 40px;
+  margin-top: 5px;
+  transition: 0.2s;
+}
+
+/* line 312, ../sass/screen.scss */
+#logo:hover {
+  height: 48px;
+  margin-top: 1px;
+  margin-left: -2px;
+}
+
+/* line 318, ../sass/screen.scss */
 .murder {
   fill: black;
   transition: 0.2s;
 }
 
-/* line 312, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
+.murder:active {
+  fill: white;
+}
+
+/* line 327, ../sass/screen.scss */
 .black_active:hover {
   background: black;
 }

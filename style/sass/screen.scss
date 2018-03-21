@@ -299,14 +299,29 @@ a {
 	transition: 0.2s;
 }
 
+.heart:active {
+	fill: black;
+}
+
 #logo {
-	width: 40px;
+	height: 40px;
 	margin-top: 5px;
+	transition: 0.2s;
+}
+
+#logo:hover {
+	height: 48px;
+	margin-top: 1px;
+	margin-left: -2px;
 }
 
 .murder {
 	fill: black;
 	transition: 0.2s;
+}
+
+.murder:active {
+	fill: white;
 }
 
 .black_active:hover {
