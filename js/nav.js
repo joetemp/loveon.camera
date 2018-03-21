@@ -11,14 +11,14 @@
 						.offset(-50)
 						.addTo(controller);
 
-// This is a test
+		// This assigns the .white_non class to all the nav buttons when the 4K button becomes active (still white)
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onCenter", duration: "100%"})
 						.setClassToggle(".ghost", "white_non")
 						.addIndicators()
 						.offset(-50)
 						.addTo(controller);
 
-// This is also a test. 
+		// This assigns the .black_non class to all the nav buttons when the nav turns black.
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
 						.setClassToggle(".ghost", "black_non")
 						.addIndicators()
@@ -32,6 +32,7 @@
 						.offset(-100)
 						.addTo(controller);
 
+		// This sets the .black_active class according to what section is currently on the screen.
 		new ScrollMagic.Scene({triggerElement: "#edit", triggerHook: "onCenter", duration: "100%"})
 						.setClassToggle("#nav_edit", "black_active")
 						.addIndicators()
