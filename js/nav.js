@@ -1,20 +1,21 @@
 		// 
 		// Fix weird bugs with nav based on scroll position. States need to cascade perfectly.  
 		//
+		// Things are in order of thier animation.
+		//
 
+		// This adds the .active class to the '4K' nav button. 
+		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onCenter", duration: "100%"})
+						.setClassToggle("#nav_4k", "active")
+						.addIndicators()
+						.offset(-50)
+						.addTo(controller);
 
 		// This makes the header bar hide 
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
 						.setClassToggle("#test", "hide")
 						.addIndicators({name: "Add .hide class"})
 						.offset(-100)
-						.addTo(controller);
-
-		// This controls which button is active on the nav
-		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onCenter", duration: "100%"})
-						.setClassToggle("#nav_4k", "active")
-						.addIndicators()
-						.offset(50)
 						.addTo(controller);
 
 		new ScrollMagic.Scene({triggerElement: "#edit", triggerHook: "onCenter", duration: "100%"})
