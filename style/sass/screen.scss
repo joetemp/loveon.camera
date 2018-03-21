@@ -114,15 +114,6 @@ a {
 	text-decoration: none;
 }
 
-#logo {
-	margin-top: 5px;
-	float: left;
-	//position: absolute;
-	//left: 0;
-	color: white;
-	font-size: 40px;
-}
-
 .murder {
 	color: black;
 }
@@ -284,4 +275,15 @@ a {
 .dark:active {
 	background: white;
 	color: black;
+}
+
+.heart {
+	fill: white;
+	width: 40px;
+	height: 10px;
+}
+
+#logo {
+	width: 40px;
+	margin-top: 5px;
 }
