@@ -7,7 +7,7 @@
 		// This adds the .white_active class to the '4K' nav button. 
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onCenter", duration: "100%"})
 						.setClassToggle("#nav_4k", "white_active")
-						.addIndicators({name: "white_active", indent: 50})
+						.addIndicators({name: "white_active", colorTrigger: "green"})
 						.offset(-50)
 						.addTo(controller);
 
@@ -78,10 +78,4 @@
 						.setClassToggle("#nav_4k", "black_active")
 						.addIndicators({name: "black_active", indent: 300, colorStart: "#FF6B6B"})
 						.offset(-100)
-						.addTo(controller);
-
-		// This makes sure the :hover state is correct on the nav once it goes dark.
-		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
-						.setClassToggle(".ghost", "dark")
-						.addIndicators()
 						.addTo(controller);
