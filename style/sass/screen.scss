@@ -233,22 +233,39 @@ a {
 	color: $dark-blue;
 }
 
-.active {
+.white_non:hover {
+	background: transparent;
+	box-shadow: inset 0 0 0 2px white;
+	color: white;
+}
+
+.white_non:active {
 	background: white;
 	color: black;
 }
 
-.active:hover {
+.white_active {
+	background: white;
+	color: black;
+}
+
+.white_active:hover {
 	background: white;
 	color: black; 
 }
 
-.blacktive {
+.black_non:hover {
+	background-color: transparent;
+	color: black;
+	box-shadow: inset 0 0 0 2px black;
+}
+
+.black_active {
 	background: black;
 	color: white;
 }
 
-.blacktive:hover {
+.black_active:hover {
 	background: black;
 	color: white;
 }
@@ -292,6 +309,6 @@ a {
 	transition: 0.2s;
 }
 
-.blacktive:hover {
+.black_active:hover {
 	background: black;
 }

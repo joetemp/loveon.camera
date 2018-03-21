@@ -289,54 +289,74 @@ a {
 }
 
 /* line 236, ../sass/screen.scss */
-.active {
+.white_non:hover {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px white;
+  color: white;
+}
+
+/* line 242, ../sass/screen.scss */
+.white_non:active {
   background: white;
   color: black;
 }
 
-/* line 241, ../sass/screen.scss */
-.active:hover {
+/* line 247, ../sass/screen.scss */
+.white_active {
   background: white;
   color: black;
 }
 
-/* line 246, ../sass/screen.scss */
-.blacktive {
+/* line 252, ../sass/screen.scss */
+.white_active:hover {
+  background: white;
+  color: black;
+}
+
+/* line 257, ../sass/screen.scss */
+.black_non:hover {
+  background-color: transparent;
+  color: black;
+  box-shadow: inset 0 0 0 2px black;
+}
+
+/* line 263, ../sass/screen.scss */
+.black_active {
   background: black;
   color: white;
 }
 
-/* line 251, ../sass/screen.scss */
-.blacktive:hover {
+/* line 268, ../sass/screen.scss */
+.black_active:hover {
   background: black;
   color: white;
 }
 
-/* line 256, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 .win {
   background: black;
   color: white;
 }
 
-/* line 261, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 .win:hover {
   background: black;
   color: white;
 }
 
-/* line 266, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 .dark:hover {
   box-shadow: inset 0 0 0 2px black;
   background: transparent;
 }
 
-/* line 273, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 .dark:active {
   background: black;
   color: white;
 }
 
-/* line 278, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .heart {
   fill: white;
   width: 40px;
@@ -344,19 +364,19 @@ a {
   transition: 0.2s;
 }
 
-/* line 285, ../sass/screen.scss */
+/* line 302, ../sass/screen.scss */
 #logo {
   width: 40px;
   margin-top: 5px;
 }
 
-/* line 290, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .murder {
   fill: black;
   transition: 0.2s;
 }
 
-/* line 295, ../sass/screen.scss */
-.blacktive:hover {
+/* line 312, ../sass/screen.scss */
+.black_active:hover {
   background: black;
 }
