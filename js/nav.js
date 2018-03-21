@@ -46,7 +46,7 @@
 
 		// THIS SHOULD CHANGE THE LOGO BUT IT FUCKING DOESN'T!
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
-						.setClassToggle("#logo", "murder")
+						.setClassToggle(".heart", "murder")
 						.addIndicators()
 						.offset(-100)
 						.addTo(controller);

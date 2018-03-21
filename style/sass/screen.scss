@@ -114,10 +114,6 @@ a {
 	text-decoration: none;
 }
 
-.murder {
-	color: black;
-}
-
 .ruler {
 	position: absolute;
 	height: 100%;
@@ -281,9 +277,15 @@ a {
 	fill: white;
 	width: 40px;
 	height: 10px;
+	transition: 0.2s;
 }
 
 #logo {
 	width: 40px;
 	margin-top: 5px;
+}
+
+.murder {
+	fill: black;
+	transition: 0.2s;
 }
