@@ -398,3 +398,9 @@ a {
 .black_active:hover {
   background: black;
 }
+
+/* line 332, ../sass/screen.scss */
+.gap {
+  background: black;
+  color: white;
+}

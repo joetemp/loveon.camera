@@ -33,6 +33,12 @@
 						.addTo(controller);
 
 		// This sets the .black_active class according to what section is currently on the screen.
+		new ScrollMagic.Scene({triggerElement: "#edit", triggerHook: "onCenter", duration: 100})
+						.setClassToggle("#nav_4k", "gap")
+						.addIndicators()
+						.offset(-100)
+						.addTo(controller);
+
 		new ScrollMagic.Scene({triggerElement: "#edit", triggerHook: "onCenter", duration: "100%"})
 						.setClassToggle("#nav_edit", "black_active")
 						.addIndicators()
