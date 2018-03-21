@@ -44,7 +44,7 @@
 						.offset(-100)
 						.addTo(controller);
 
-		// THIS SHOULD CHANGE THE LOGO BUT IT FUCKING DOESN'T!
+		// This changes the logo color 
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
 						.setClassToggle(".heart", "murder")
 						.addIndicators()
