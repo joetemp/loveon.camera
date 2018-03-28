@@ -396,10 +396,11 @@ a {
 /* line 325, ../sass/screen.scss */
 .arrow {
   position: relative;
-  fill: blue;
+  fill: black;
 }
 
 /* line 330, ../sass/screen.scss */
 #liney {
-  height: 30px;
+  margin-top: 15px;
+  height: 20px;
 }
