@@ -35,28 +35,28 @@
 		// This sets the .black_active class according to what section is currently on the screen.
 		new ScrollMagic.Scene({triggerElement: "#edit", triggerHook: "onCenter", duration: 100})
 						.setClassToggle("#nav_4k", "gap")
-						.addIndicators({name: "4k Gap", indent: 60, colorStart: "rgba(102, 102, 102, 0.8)"})
+						.addIndicators({name: "4k Gap", indent: 60, colorStart: "rgba(102, 102, 102, 0.8)", colorEnd: "rgba(102, 102, 102, 0.8)"})
 						.offset(-100)
 						.addTo(controller);
 
 		new ScrollMagic.Scene({triggerElement: "#edit", triggerHook: "onCenter", duration: "100%"})
 						.setClassToggle("#nav_edit", "black_active")
-						.addIndicators({name: "Edit active"})
+						.addIndicators({name: "Edit active", colorStart: "rgba(102, 102, 102, 0.8)", colorEnd: "rgba(102, 102, 102, 0.8)"})
 						.addTo(controller);
 
 		new ScrollMagic.Scene({triggerElement: "#stills", triggerHook: "onCenter", duration: "100%"})
 						.setClassToggle("#nav_stills", "black_active")
-						.addIndicators({name: "Stills active"})
+						.addIndicators({name: "Stills active", colorStart: "rgba(102, 102, 102, 0.8)", colorEnd: "rgba(102, 102, 102, 0.8)"})
 						.addTo(controller);
 
 		new ScrollMagic.Scene({triggerElement: "#webpage", triggerHook: "onCenter", duration: "100%"})
 						.setClassToggle("#nav_webpage", "black_active")
-						.addIndicators({name: "Webpage active"})
+						.addIndicators({name: "Webpage active", colorStart: "rgba(102, 102, 102, 0.8)", colorEnd: "rgba(102, 102, 102, 0.8)"})
 						.addTo(controller);
 
 		new ScrollMagic.Scene({triggerElement: "#book", triggerHook: "onCenter", duration: "100%"})
 						.setClassToggle("#nav_book", "black_active")
-						.addIndicators({name: "Book active", indent: 30})
+						.addIndicators({name: "Book active", colorStart: "rgba(102, 102, 102, 0.8)", colorEnd: "rgba(102, 102, 102, 0.8)", indent: 30})
 						.addTo(controller);
 
 		// This changes the font color on the nav
