@@ -7,14 +7,14 @@
 		// This adds the .white_active class to the '4K' nav button. 
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onCenter", duration: "50%"})
 						.setClassToggle("#nav_4k", "white_active")
-						.addIndicators({name: "white_active", colorStart: "rgba(102, 102, 102, 0.8)", colorTrigger: "rgba(102, 102, 102, 0.8)"})
+						.addIndicators({name: "white_active", colorStart: "rgba(102, 102, 102, 0.8)", colorEnd: "rgba(102, 102, 102, 0.8)", colorTrigger: "rgba(102, 102, 102, 0.8)"})
 						.offset(-50)
 						.addTo(controller);
 
 		// This assigns the .white_non class to all the nav buttons when the 4K button becomes active (still white)
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onCenter", duration: "50%"})
 						.setClassToggle(".ghost", "white_non")
-						.addIndicators({name: "white_non", colorStart: "rgba(102, 102, 102, 0.8)", indent: 115})
+						.addIndicators({name: "white_non", colorStart: "rgba(102, 102, 102, 0.8)", colorEnd: "rgba(102, 102, 102, 0.8)", indent: 115})
 						.offset(-50)
 						.addTo(controller);
 
