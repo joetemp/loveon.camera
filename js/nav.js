@@ -21,7 +21,7 @@
 		// This assigns the .black_non class to all the nav buttons when the nav turns black.
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
 						.setClassToggle(".ghost", "black_non")
-						.addIndicators({name: "black_non", colorStart: "#FF6B6B", colorTrigger: "rgba(255, 107, 107, 0.5)"})
+						.addIndicators({name: "black_non", colorStart: "#FF6B6B", colorTrigger: "rgba(0, 0, 0, 0.8)"})
 						.offset(-100)
 						.addTo(controller);
 
