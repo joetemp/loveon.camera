@@ -304,13 +304,36 @@ a {
 	margin-left: -1px;
 }
 
-.murder {
-	fill: black;
+#real_logo {
+	height: 40px;
+	margin-top: 5px;
 	transition: 0.2s;
 }
 
-.murder:active {
-	fill: white;
+#real_logo:hover {
+	height: 44px;
+	margin-top: 3px;
+	margin-left: -1px;
+	transition: 0.2s;
+}
+
+// This just changes the fill color of all the paths any time it's clicked. You just can't see that at the top because it IS white.
+#real_logo:active {
+	.cls-2 {
+		fill: white;
+	}
+}
+
+.cls-1 {
+	fill: none;
+}
+.cls-2 {
+	fill: white;	
+}
+
+.murder {
+	fill: black;
+	transition: 0.2s;
 }
 
 .black_active:hover {

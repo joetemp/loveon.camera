@@ -68,7 +68,7 @@
 
 		// This changes the logo color 
 		new ScrollMagic.Scene({triggerElement: "#resolution", triggerHook: "onLeave"})
-						.setClassToggle(".heart", "murder")
+						.setClassToggle(".cls-2", "murder")
 						.addIndicators({name: "black logo", indent: 102, colorStart: "rgba(102, 102, 102, 0.8)"})
 						.offset(-100)
 						.addTo(controller);

@@ -372,33 +372,58 @@ a {
 }
 
 /* line 307, ../sass/screen.scss */
+#real_logo {
+  height: 40px;
+  margin-top: 5px;
+  transition: 0.2s;
+}
+
+/* line 313, ../sass/screen.scss */
+#real_logo:hover {
+  height: 44px;
+  margin-top: 3px;
+  margin-left: -1px;
+  transition: 0.2s;
+}
+
+/* line 322, ../sass/screen.scss */
+#real_logo:active .cls-2 {
+  fill: white;
+}
+
+/* line 327, ../sass/screen.scss */
+.cls-1 {
+  fill: none;
+}
+
+/* line 330, ../sass/screen.scss */
+.cls-2 {
+  fill: white;
+}
+
+/* line 334, ../sass/screen.scss */
 .murder {
   fill: black;
   transition: 0.2s;
 }
 
-/* line 312, ../sass/screen.scss */
-.murder:active {
-  fill: white;
-}
-
-/* line 316, ../sass/screen.scss */
+/* line 339, ../sass/screen.scss */
 .black_active:hover {
   background: black;
 }
 
-/* line 320, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 .gap {
   background: black;
   color: white;
 }
 
-/* line 325, ../sass/screen.scss */
+/* line 348, ../sass/screen.scss */
 .arrow {
   fill: black;
 }
 
-/* line 329, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 #liney {
   position: absolute;
   left: 50%;
