@@ -323,11 +323,13 @@ a {
 }
 
 .arrow {
-	position: relative;
 	fill: black;	
 }
 
 #liney {
+	position: absolute;
+	left: 50%;
 	margin-top: 15px;
 	height: 20px;
+	margin-left: -18px;
 }

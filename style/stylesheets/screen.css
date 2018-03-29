@@ -395,12 +395,14 @@ a {
 
 /* line 325, ../sass/screen.scss */
 .arrow {
-  position: relative;
   fill: black;
 }
 
-/* line 330, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 #liney {
+  position: absolute;
+  left: 50%;
   margin-top: 15px;
   height: 20px;
+  margin-left: -18px;
 }
