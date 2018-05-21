@@ -155,9 +155,18 @@ a {
 		height: 100%;
 		// object-fit does not work on IE.
     	object-fit: cover;
-    	display: none;
+    	// display: none;
     	z-index: 100;
 	}
+}
+
+#vimeo {
+	position: absolute;
+	width: 100vw;
+	height: 56.25vw;
+	min-height: 100vh;
+	min-width: 177.77vh;
+	z-index: 100;
 }
 
 			
