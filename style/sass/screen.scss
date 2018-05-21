@@ -162,13 +162,13 @@ a {
 
 #vimeo {
 	position: absolute;
+	top: -28.125vw;
 	width: 100vw;
 	height: 56.25vw;
 	min-height: 100vh;
 	min-width: 177.77vh;
 	z-index: 100;
 }
-
 			
 .button {
 	position: absolute;
@@ -211,6 +211,7 @@ a {
 	bottom: 0;
 	background: white;
 	z-index: 2000;
+	//display: none;
 }
 
 #package {
