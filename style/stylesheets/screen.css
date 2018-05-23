@@ -303,91 +303,99 @@ a {
   position: absolute;
   width: 35%;
   right: 10%;
-  top: 50%;
-  transform: translate(0, -50%);
+  bottom: 0%;
+  transition: 0.8s;
+  opacity: 0;
+}
+/* line 260, ../sass/screen.scss */
+#resolution .appear {
+  bottom: 50%;
+  transform: translate(0, 50%);
+  transition: 0.8s;
+  opacity: 1;
 }
 
-/* line 260, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 #stills {
   background-color: #6A7FDB;
   color: #5768B4;
 }
 
-/* line 265, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 #edit {
   background-color: #69D1C5;
   color: #4D9990;
 }
 
-/* line 270, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 #webpage {
   background-color: #FF6B6B;
   color: #BA4E4E;
 }
 
-/* line 275, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 #book {
   background-color: #8DE4FF;
   color: #67A6BA;
 }
 
-/* line 280, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 .white_non:hover {
   background: transparent;
   box-shadow: inset 0 0 0 2px white;
   color: white;
 }
 
-/* line 286, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 .white_non:active {
   background: white;
   color: black;
 }
 
-/* line 291, ../sass/screen.scss */
+/* line 299, ../sass/screen.scss */
 .white_active {
   background: white;
   color: black;
 }
 
-/* line 296, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 .white_active:hover {
   background: white;
   color: black;
 }
 
-/* line 301, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 .black_non:hover {
   background-color: transparent;
   color: black;
   box-shadow: inset 0 0 0 2px black;
 }
 
-/* line 307, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 .black_active {
   background: black;
   color: white;
 }
 
-/* line 312, ../sass/screen.scss */
+/* line 320, ../sass/screen.scss */
 .black_active:hover {
   background: black;
   color: white;
 }
 
-/* line 317, ../sass/screen.scss */
+/* line 325, ../sass/screen.scss */
 .win {
   background: black;
   color: white;
 }
 
-/* line 322, ../sass/screen.scss */
+/* line 330, ../sass/screen.scss */
 .win:hover {
   background: black;
   color: white;
 }
 
-/* line 327, ../sass/screen.scss */
+/* line 335, ../sass/screen.scss */
 .heart {
   fill: white;
   width: 40px;
@@ -395,33 +403,33 @@ a {
   transition: 0.2s;
 }
 
-/* line 334, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 .heart:active {
   fill: black;
 }
 
-/* line 338, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 #logo {
   height: 40px;
   margin-top: 5px;
   transition: 0.2s;
 }
 
-/* line 344, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 #logo:hover {
   height: 44px;
   margin-top: 3px;
   margin-left: -1px;
 }
 
-/* line 350, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 #real_logo {
   height: 40px;
   margin-top: 5px;
   transition: 0.2s;
 }
 
-/* line 356, ../sass/screen.scss */
+/* line 364, ../sass/screen.scss */
 #real_logo:hover {
   height: 44px;
   margin-top: 3px;
@@ -429,44 +437,44 @@ a {
   transition: 0.2s;
 }
 
-/* line 365, ../sass/screen.scss */
+/* line 373, ../sass/screen.scss */
 #real_logo:active .cls-2 {
   fill: white;
 }
 
-/* line 370, ../sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 .cls-1 {
   fill: none;
 }
 
-/* line 373, ../sass/screen.scss */
+/* line 381, ../sass/screen.scss */
 .cls-2 {
   fill: white;
 }
 
-/* line 377, ../sass/screen.scss */
+/* line 385, ../sass/screen.scss */
 .murder {
   fill: black;
   transition: 0.2s;
 }
 
-/* line 382, ../sass/screen.scss */
+/* line 390, ../sass/screen.scss */
 .black_active:hover {
   background: black;
 }
 
-/* line 386, ../sass/screen.scss */
+/* line 394, ../sass/screen.scss */
 .gap {
   background: black;
   color: white;
 }
 
-/* line 391, ../sass/screen.scss */
+/* line 399, ../sass/screen.scss */
 .arrow {
   fill: black;
 }
 
-/* line 395, ../sass/screen.scss */
+/* line 403, ../sass/screen.scss */
 #liney {
   position: absolute;
   left: 50%;
