@@ -3,6 +3,6 @@ var controller = new ScrollMagic.Controller({});
 
 // build scenes
 new ScrollMagic.Scene({triggerElement: "#resolution"})
-				.setClassToggle("#blue", "appear")
+				.setClassToggle("#altar", "appear")
 				.offset(-50)
 				.addTo(controller);
