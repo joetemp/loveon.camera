@@ -247,26 +247,17 @@ a {
 #resolution {
 	background-color: white;
 	color: $gray;
-
-
-	img {
-		position: absolute;
-		width: 35%;
-		right: 10%;
-		bottom: 0%;
-		opacity: 0; 	
-		transition: 0.6s;
-	}
-
-	.res-class {
-		bottom: 50%;
-		transform: translate(0%, 50%);
-		transition: 0.6s;
-		opacity: 1;
-	}
 }
 
-// Gonna attempt to make this a flat file.
+#res-img {
+	position: absolute;
+	width: 35%;
+	right: 10%;
+	bottom: 50%;
+	transform: translate(0%, 50%);
+	transition: 0.6s;
+	opacity: 1;	
+}
 
 #stills {
 	background-color: $purple;
