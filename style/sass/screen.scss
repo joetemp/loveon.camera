@@ -114,6 +114,16 @@ h1 {
 	background-color: red;
 }
 
+.textbox {
+	position: absolute;
+	width: 35vw;
+	height: (35vw * 9) / 16;
+	background-color: blue;
+	left: 10%;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
 
 a {
 	text-decoration: none;
