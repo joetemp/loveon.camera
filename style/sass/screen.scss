@@ -105,13 +105,8 @@ section {
 
 h1 {
 	position: absolute;
-	bottom: 50%;
-	transform: translate(0%, 50%);
-	height: (35vw * 9) / 16;
-	left: 10%;
-	font-family: $raleway;
+	font-family: $roboto;
 	font-size: 10em;
-	background-color: red;
 }
 
 .textbox {
