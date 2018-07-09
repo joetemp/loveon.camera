@@ -1,5 +1,5 @@
 // Imports
-@import "compass/reset";
+@import "normalize";
 
 // Colors
 $gray: #CFCFCF;
@@ -288,7 +288,7 @@ a {
 }
 
 #edit {
-	background-color: red;
+	background-color: red; 
 	color: $dark-teal;
 }
 
