@@ -108,6 +108,7 @@ h1 {
 	font-family: $raleway;
 	font-size: 7em;
 	color: #2e2e2e;
+	margin: 0;
 }
 
 .textbox {
@@ -117,7 +118,6 @@ h1 {
 	left: 10%;
 	top: 50%;
 	transform: translate(0, -50%);
-	background-color: red;
 }
 
 p{
